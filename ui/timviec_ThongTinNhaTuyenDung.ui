@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>timvie_ThongTinNhaTuyenDung</class>
+ <widget class="QMainWindow" name="timvie_ThongTinNhaTuyenDung">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>754</width>
+    <height>501</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tìm việc - Thông tin nhà tuyển dụng</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>10</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>THÔNG TIN NHÀ TUYỂN DỤNG</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>711</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>I. THÔNG TIN CHUNG</string>
+    </property>
+    <widget class="QListView" name="li_TTNhaTuyenDung_TimViec">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>671</width>
+       <height>111</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>250</y>
+      <width>711</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>II. CÁC CÔNG VIỆC</string>
+    </property>
+    <widget class="QTableWidget" name="table_dsCongViec">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>661</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Mã công việc</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Nhà tuyển dụng</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Tên công việc </string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Mô tả</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Vị trí</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Trình độ</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Loại công việc</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Chỉ tiêu</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Số người ứng tuyển</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Lương</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Tình Trạng</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+     <item row="0" column="2">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>754</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
